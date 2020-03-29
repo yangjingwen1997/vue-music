@@ -1,6 +1,6 @@
 # music接口文档
 
-**1、用户
+1、用户
 
 1.1 )user
 调用地址：http://localhost:3001/api/user
@@ -91,7 +91,7 @@ msg	string		否		注销成功
     "err": 0,
     "msg": "注销成功"
 }
-**2、数据
+2、数据
 
 
 2.1 )banner
