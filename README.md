@@ -11,7 +11,7 @@
 参数名称	参数类型	参数说明	是否必填	默认值	示例值
 username	string		是		
 _id	string		是		
-返回实例：
+返回示例：
 {
     "err": 0,
     "msg": "自动登陆成功",
@@ -35,7 +35,7 @@ _id	string		是
 username	string		是		
 password	string		是		
 nikename	string		否		
-返回参数：
+返回示例：
 {
     "err": 0,
     "msg": "注册成功",
@@ -60,7 +60,7 @@ username	string		是
 password	string		是		
 err	string		否	1	
 msg	string		否		用户名密码为必传参数
-返回参数：
+返回示例：
 {
     "err": 0,
     "msg": "登录成功",
@@ -86,7 +86,7 @@ msg	string		否		用户名密码为必传参数
 参数名称	参数类型	参数说明	是否必填	默认值	示例值
 err	string		否	0	
 msg	string		否		注销成功
-返回实例：
+返回示例：
 {
     "err": 0,
     "msg": "注销成功"
@@ -196,7 +196,6 @@ _limit	Number		是
             }
         },
 }
-
 
 2.5 )friend
 调用地址：http://localhost:3001/api/goods/friend
